@@ -1,0 +1,101 @@
+<html>
+<head>
+
+  <link href = "stylesheet.css" rel = "stylesheet"/>
+  <style type="text/css">
+
+body{
+
+    font-family: "Helvetica", Times, sans-serif;
+
+}  
+
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 60px;
+  height: 80px;
+  padding: 8px;
+  font: 10px sans-serif;
+  background: #ddd;
+  border: solid 1px #aaa;
+  pointer-events: none;
+}
+
+img.tooltip{
+  width: 60px;
+  height: 80px;
+  
+
+}
+
+img.reco1{
+  width: 120px;
+  height: 160px;
+  padding: 20px;
+  margin: 30px;
+  display: block;
+
+}
+
+img.reco2{
+  width: 120px;
+  height: 160px;
+  padding: 20px;
+  margin: 30px;
+  display: block;
+}
+
+img.reco3{
+  width: 120px;
+  height: 160px;
+  padding: 20px;
+  margin: 30px;
+  display: block;
+}
+
+img.reco4{
+  width: 120px;
+  height: 160px;
+  padding: 20px;
+  margin: 30px;
+  display: block;
+}
+
+
+
+  </style>
+	</head>
+	<body>
+	<div>
+		<h1 style = "text-align:center">Book Recommender </h1>	
+    <div>	
+    <div class="index-main" style="width: 30%;float:right;"></div>
+		<div class="viz-main" style="width: 70%;float:left;">
+    </div>
+
+		</div>
+    <div>
+		<!--<div id="container1" style="float:left; position: relative; width: 300; max-height: 300px;"></div>-->
+    <div class = "reco" style = "visibility: hidden;">
+    <div class = "title"><h1 style = "text-align:center">Recommended Books</h1></div>
+    <div><img class = "reco1" style = "display: inline-block; float:left;"></div>
+    <div><img class = "reco2" style = "display: inline-block; float:left;"></div>
+    <div><img class = "reco3" style = "display: inline-block; float:left;"></div>
+    <div><img class = "reco4" style = "display: inline-block; float:left;"></div>
+
+  </div>
+</div>
+
+  
+	<script src="http://d3js.org/d3.v3.min.js"></script>
+	<script src="http://d3js.org/topojson.v1.min.js"></script>  
+ 	<script src="http://datamaps.github.io/scripts/datamaps.world.minjs?v=1"></script>
+ 	<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <script src="app.js"></script>
+
+
+
+	</body>
+</html>
